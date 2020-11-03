@@ -1,2 +1,7 @@
 ^datatoolboxexos\.Rproj$
 ^\.Rproj\.user$
+^_dev\.R$
+^README\.Rmd$
+^README-.*\.png$
+^CONDUCT\.md$
+^CONTRIBUTING\.md$
