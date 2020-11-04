@@ -2,13 +2,13 @@
 rm(list = ls())
 
 # ----- install/update packages
-#devtools::install_deps()
+devtools::install_deps()
 
 # ----- install compendium package
-devtools::install(build = FALSE)
+#devtools::install(build = FALSE)
 
 # ----- Knit exo dplyr
-rmarkdown::render(here::here("exercises","exo_dplyr.Rmd"))
+#rmarkdown::render(here::here("exercises","exo_dplyr.Rmd"))
 
 
 # ----- drake

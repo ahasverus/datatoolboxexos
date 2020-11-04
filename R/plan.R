@@ -4,6 +4,8 @@
 #' @return A drake plan
 #' @export
 #'
+#' @importFrom drake drake_plan
+#'
 #' @examples
 write_plan_simple <- function() {
   drake::drake_plan(

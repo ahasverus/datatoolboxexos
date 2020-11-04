@@ -22,9 +22,12 @@ usethis::use_mit_license(name = "Nina Schiettekatte")
 
 usethis::use_build_ignore("exercises/")
 
-# drake
+usethis::use_pipe()
+
+##### drake #####
 usethis::use_r(name = "wrangle.R")
 usethis::use_r(name = "plots.R")
+usethis::use_r(name = "plan.R")
 file.create("_drake.R")
 file.create("make.R")
 dir.create("output")
@@ -41,12 +44,13 @@ usethis::use_package("fishualize")
 usethis::use_package("sf")
 usethis::use_package("drake")
 
-
+# ignore files
 usethis::use_build_ignore(".drake")
 usethis::use_build_ignore("_drake.R")
 usethis::use_build_ignore("make.R")
 usethis::use_git_ignore(".drake")
 usethis::use_build_ignore("output/")
+usethis::use_build_ignore("text/")
 
 
 
