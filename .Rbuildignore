@@ -3,5 +3,11 @@
 ^_dev\.R$
 ^README\.Rmd$
 ^README-.*\.png$
-^CONDUCT\.md$
-^CONTRIBUTING\.md$
+
+^data$
+^LICENSE\.md$
+^exercises$
+^\.drake$
+^_drake\.R$
+^make\.R$
+^output$

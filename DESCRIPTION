@@ -16,4 +16,10 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Imports: 
     readr,
-    here
+    here,
+    dplyr,
+    ggplot2,
+    magrittr,
+    forcats,
+    fishualize,
+    sf
