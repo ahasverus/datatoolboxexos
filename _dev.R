@@ -39,6 +39,7 @@ usethis::use_package("magrittr")
 usethis::use_package("forcats")
 usethis::use_package("fishualize")
 usethis::use_package("sf")
+usethis::use_package("drake")
 
 
 usethis::use_build_ignore(".drake")
